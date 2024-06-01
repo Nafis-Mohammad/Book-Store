@@ -1,0 +1,13 @@
+<section>
+    <div class="home-top-div">
+        <form class="search-form">
+            <input type="text" placeholder="Search Books by Title" #search>
+            <button class="search-button" type="button" (click)="filterResults(search.value)">Search</button>
+        </form>
+        <a [routerLink]="['/book-create']" class="create-book-link">Create Book</a>
+    </div>
+    
+    <section class="results">
+        <app-book *ngFor="let book of filteredBookList" [book]="book"></app-book>
+    </section>
+</section>

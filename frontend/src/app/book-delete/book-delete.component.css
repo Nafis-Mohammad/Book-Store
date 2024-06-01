@@ -1,0 +1,30 @@
+.go-back {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.go-back:hover {
+    background-color: #dddddd;
+}
+
+.delete-page-div {
+    text-align: center;
+}
+
+.delete-book-button {
+    height: 2em;
+    width: 5em;
+    background-color: white;
+    border-width: 1px;
+}
+
+.delete-book-button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.go-back {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.go-back:hover {
+    background-color: #dddddd;
+}
+
+.update-book-form {
+    max-width: 300px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input:last-of-type {
+    margin-bottom: 2em;
+}
+
+.book-update {
+    background-color: white;
+    border-width: 1px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book-update:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}

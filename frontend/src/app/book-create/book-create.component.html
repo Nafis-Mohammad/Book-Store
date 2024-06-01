@@ -1,0 +1,20 @@
+<a class="go-back" [routerLink]="['']">Go Back</a>
+
+<form class="create-book-form" [formGroup]="createBookForm" (submit)="createBook()">
+    <label for="title">Title</label>
+    <input id="title" type="text" required formControlName="title">
+
+    <label for="author">Author</label>
+    <input id="author" type="text" required formControlName="author">
+
+    <label for="description">Description</label>
+    <textarea id="description" type="text" required formControlName="description"></textarea>
+
+    <label for="genre">Genre</label>
+    <input id="genre" type="text" required formControlName="genre">
+
+    <label for="publish-year">Publish Year</label>
+    <input id="publish-year" type="number" required formControlName="publishYear">
+
+    <button type="submit" class="book-create">Create Book</button>
+</form>

@@ -1,0 +1,10 @@
+<section class="books">
+    <h2 class="books-title">{{book.title}}</h2> 
+    <h3 class="books-author">{{book.author}}</h3>
+    <div class="links">
+        <a class="book-details" [routerLink]="['/book-details', book._id]">Learn More</a>
+        <a class="book-update" [routerLink]="['/book-update', book._id]">Update Book</a>
+        <a class="book-delete" [routerLink]="['/book-delete', book._id]">Delete Book</a>
+    </div>
+    
+</section>
